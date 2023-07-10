@@ -47,7 +47,7 @@ public class MaxIndexWBadIndexAndSteps {
 
     public static void main(String[] args) {
         long startTime = System.currentTimeMillis();
-        System.out.println(maxIndex(4, 6));
+        System.out.println(maxIndex(2, 2));
         long endTime = System.currentTimeMillis();
         System.out.println("That took " + (endTime - startTime) + " milliseconds");
 //        System.out.println(maxIndexProVersion(4, 6));

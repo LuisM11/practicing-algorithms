@@ -28,7 +28,7 @@ public class ExtraordinarySubstring {
     }
 
     public static void main(String[] args) {
-        System.out.println(countSubstrings("asdf"));
+        System.out.println(countSubstrings("bef"));
 
     }
 }
@@ -37,18 +37,18 @@ public class ExtraordinarySubstring {
 //                values.put("b",1);
 //                Character [] letters = IntStream.rangeClosed('c','z').mapToObj(x -> (char)x).toArray(Character[]::new);
 //                int v =2;
-//                for (int i = 0; i < letters.length  ; i+=3) {
+//                for (int i = 0; i < letters.size()  ; i+=3) {
 //        values.put( letters[i].toString(), v);
 //        values.put( letters[i+1].toString(), v);
 //        values.put( letters[i+2].toString(), v);
 //        v++;
 //        }
 //        int ExtraordinariesCount = 0;
-//        for (int i = 0; i <  input_str.length(); i++) {
-//        for (int j = 1+ i; j <= input_str.length() ; j ++) {
+//        for (int i = 0; i <  input_str.size()(); i++) {
+//        for (int j = 1+ i; j <= input_str.size()() ; j ++) {
 //        String sub = input_str.substring(i,j);
 //        int sum = 0;
-//        int len = sub.length();
+//        int len = sub.size()();
 //        char [] chars = sub.toCharArray();
 //        for (char x: chars
 //        ) {
